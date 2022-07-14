@@ -1,0 +1,74 @@
+/* Tag Selector*/
+body {
+    background-color:#FEF5ED;
+}
+
+h1 {
+    color: #3E7C17;
+}
+
+h3 {
+    color: #3E7C17;
+}
+
+hr{
+    /* background-color: white; */
+    border-style: none; 
+    border-top-style: dotted;
+    border-color:grey;
+    border-width:5px;
+    width: 7%;    
+}
+
+/* class selctor */
+
+.profile-pic {
+    border-radius: 50%; 
+}
+
+.heading {
+    font-size: 20px;
+    font-family: "Roboto","HelveticaNeue-Light",sans-serif;
+    font-weight: 400;
+}
+
+#certificates {
+    font-size: 20px;
+    font-family: "Roboto","HelveticaNeue-Light",sans-serif;
+    font-weight: 400;
+}
+
+.skills {
+    font-size: 15px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 200;
+}
+
+.btn-submit-form{
+    background-color: #a435f0;
+    border: none;
+    color: #307530;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*
+css syntax:
+
+
+selector {     //who
+
+    property : value;
+
+    //what : how
+}
+
+.  => class
+#  => id   ... uniqueness of elements
+
+*/

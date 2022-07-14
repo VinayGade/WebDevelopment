@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.heading {
+    color:#EEEBDD;
+    background-color: #630000;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.8rem;
+    /*  display:inline-block; */
+
+    margin:auto;
+    /* padding: 16px 16px 16px 16px; */   /*   top right bottom left (clockwise)   */
+
+    padding: 16px;
+    /*  padding:0px; */
+
+    font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+#designation {
+    /*
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    */
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+#skill-heading {
+    margin-top: 2px; 
+}
+
+.skillset{
+    background-color: #D8B6A4;
+    color:#630000;
+    
+   /*  display:inline-block; */
+    /* padding:0px; */
+    line-height: 1.7;
+    font-size: 16px;
+    text-align: justify;
+    font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    padding: 16px 32px 32px 32px;
+    /* border-right: 1px solid #f1f1f1; */
+}
+
+.courses{
+    background-color: #EEEBDD;
+    color:#000000;
+    
+   /*  display:inline-block; */
+    /* padding:0px; */
+    line-height: 1.7;
+    font-size: 15px;
+    text-align: justify;
+    font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    padding: 16px 32px 32px 32px;
+}
+
+ol.courselist{
+    list-style-type: lower-roman;
+}
+/*
+.profilepic{
+
+    margin:10px 10px 10px 10px;
+    width:80px;
+    height:30px;
+}
+*/
+body{
+    margin: 0;
+}
+
+h1{
+    margin-top: 0;
+}
+
+p {
+
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    /*
+    text-align: left; 
+    text-indent: 45px;
+    */
+}
+
+/*  div {
+    background-color: #B91646;
+}
+*/
+
+.middle-container {
+    background-color: #5624d0;
+    /* width : 250px; */
+    height : 150px;
+}
+
+.bottom-container {
+    background-color: #1c1d1f;
+    /* width : 250px; */
+    height : 150px;
+}
+
+.pallete-green {
+    display: inline-block;
+    height : 150px;
+    width : 33%;
+    background-color: lightblue;
+    position : relative;
+    
+   /*  position: absolute;
+    left : 200px; */
+   
+}
+
+.pallete-maroon {
+    display: inline-block;
+    height : 150px;
+    width : 33%;
+    background-color: maroon;
+    position : relative;
+    
+    /* position: absolute;
+    right : 200px; 
+    */
+}
+
+.pallete-grey {
+    display: inline-block;
+    height : 150px;
+    width : 33%;
+    background-color: gray;
+    position : relative; 
+    
+   /*  position: absolute;
+    right : 200px; 
+    */
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+
+/*
+
+display :
+
+    None         :  Disappear/Hide an element      or   "visibility: hidden";
+
+    Block        :  h1..h6, p, list, div, form     (Block width of entire page   ...Block elements)
+                 :  to put these elements inline , set     "display: inline";
+
+    Inline       :  span, img, a    (required space occupied, doesn't block entire width of page)
+                 :  Unable to change width
+    
+    Inline-Block : able to change width + inline (eg. img)
+
+*/
+
+
+/*
+
+position :
+
+    static   :   (default - HTML based)
+
+    relative :
+                eg. .img {
+                    position: relative;
+                    left: 30px;
+                } 
+
+
+    absolute :
+    fixed    :   even after scrolling page element's position is fixed (intact)
+
+*/

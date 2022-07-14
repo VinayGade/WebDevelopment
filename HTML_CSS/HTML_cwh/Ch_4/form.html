@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Form</title>
+</head>
+
+<body>
+    <div>
+        <!-- form : Collect user input -->
+        <h1>Travel Form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter Name"><br>
+            <!--
+            <label for="Gender">
+                <input type="radio" value="Male" name="Gender" id="Gender"> Male
+                <input type="radio" value="Female" name="Gender" id="Gender"> Female
+            </label>
+            -->
+
+            <!--
+                for = id .. must match
+                name : same for all radio inputs (to take 1 input value)
+            -->
+            <label for="male">
+                <input type="radio" value="Male" name="Gender" id="male"> Male
+                
+            </label>
+
+            <label for="female">
+                <input type="radio" value="Female" name="Gender" id="female"> Female
+            </label>
+            <br>
+
+            <input type="checkbox" name ="Food Canteen" id="foodcanteen" class="red">
+            <label for="foodcanteen">Want Food Canteen ?</label>
+
+            <br>
+            <textarea name="Explain" id="explain" placeholder="Why you want to join ?" id="" cols="30" rows="10"></textarea>
+
+            <select name="car" id="car">
+                <option value="default">Select Your Car</option>
+                <option value="Volvo">Volvo 2 * 2 AC Bus</option>
+                <option value="Volvo-sleeper">Volvo 1 * 2 AC Sleeper Bus</option>
+                <option value="mercedezBenz">Mercedez 1 * 1 AC Sleeper Bus</option>
+                <option value="mercedezBenz-mini">Mercedez 2 * 1 AC Mini Bus</option>
+                <option value="tata">Tata 2 * 2 AC Bus</option>
+            </select>
+        </form>
+
+    <div>
+            <!-- iframe : Embed video from other servers / sites-->
+        <span>
+            <h1>SPECTRE OO7 Movie Trailer</h1>
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/7GqClqvlObY" title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+
+            
+        </span>
+
+        <span>
+            <h1>ALUX Video</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mX9wZj5bGcU" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </span>
+    </div>
+
+    </div>
+
+    <br><br>
+
+    <div>
+        <h2>Embedded DSA Intro Video</h2>
+        <video src="../videos/001 Introduction to the Course.mp4" width = "560" controls> Data Structures Course Introduction </video>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vinay's Sample Document</title>
+</head>
+<body>
+
+
+    <!-- Heading tags : h1 .. h6 -->
+
+    <!--
+        h1 : primary heading of website
+        SEO : search engine crawler moves from h1 -> h6. Hence use h1 .. h6 cautiosly.
+        Don't use for font sizes / thick / bold text.
+    -->
+
+    <h1>Books</h1>
+    <h2>Books</h2>
+    <h3>Books</h3>
+    <h4>Books</h4>
+    <h5>Books</h5>
+    <h6>Books</h6>
+    <p>There are lots of books to read...</p>
+
+    <!-- a = anchor tag : Used to add links in content or redirect to URL of  another server 
+            use ' ' or " " -->
+
+    <!-- Absolute link -->
+    <a href="https://www.udemy.com/">Click here to visit Udemy homepage...</a>
+
+    <!-- Relative link -->
+    <a href="about.html">About Us</a>   <!-- try with href = "/about.html" -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consectetur sint sed minima est praesentium, laudantium ipsum. Cumque quam aperiam in voluptates optio doloremque corporis? Magni aut distinctio nulla fuga.</p><br>
+
+    <b>Vinay</b>
+    <i>Vinay</i>
+    <u>Vinay</u><br>
+    <b><u>Vinay Gade</u></b><br>
+    <b><i>Software Engineer</i></b><br>
+
+    <big>Big font</big><br>
+    <small>Small font</small>
+
+    <!-- Carbon Dioxide -->
+
+    <p>CO<sub>2</sub> </p> <br>
+
+    <!-- equation -->
+    <p>(a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></p> <br><br>
+
+    <!-- Display code as it is eg. Code Snippets, Quotes etc -->
+
+    <!-- Quotes -->
+    <p>"All our dreams can come true if we have the courage to pursue them." --Walt Disney</p><br><br>
+
+    <p> <pre> "I have not failed. I've just found 10,000 ways that won't work." --Thomas A. Edison </pre> </p><br><br><br>
+
+    <p>Java 8 Code snippet :</p><br>
+    <p>
+        <pre>
+
+                public interface Moveable {
+                    default void move(){
+                        System.out.println("I am moving");
+                    }
+                }
+        </pre>
+    </p>
+
+    <br><br>
+
+    <p>Code Explaination :</p>
+        
+        <pre>
+
+        Moveable interface defines a method move() and provided a default implementation as well. 
+        If any class implements this interface then it need not to implement it’s own version of move() method. It can directly call instance.move().
+
+        </pre>
+       
+
+    <br><br>
+
+    <p>Nature Images</p>
+
+    <!--
+    <img src="https://images.unsplash.com/photo-1551309292-e185c0b6e22a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" alt="Mountain Image."/><br>
+    -->
+
+        <!-- alt = display message if trouble loading image... -->
+
+        <!--
+    <img src="https://images.unsplash.com/photo-1621288952933-69f4d548f89e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=726&q=80" alt="Dense Forest Image"/><br>
+    -->
+
+    <!-- embedded image... -->
+    
+    <img src="mountain2.jpg" alt="Mountain Image" width="500px"/>
+
+    <!-- set width and height with css ... -->
+
+</body>
+</html>
